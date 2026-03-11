@@ -1,0 +1,30 @@
+# Zero-Touch SaaS — Dependencias Python
+# Instalar con: pip install -r requirements.txt
+
+# Stripe
+stripe==8.11.0
+
+# Servidor webhook
+flask==3.0.3
+gunicorn==23.0.0
+
+# Google Gemini AI
+google-generativeai==0.8.3
+
+# HTTP / PDF handling
+requests==2.32.3
+pypdf==4.3.1
+Pillow==10.4.0
+
+# Email delivery
+sendgrid==6.11.0
+
+# Supabase
+supabase==2.7.4
+
+# Reddit bot
+praw==7.7.1
+
+# Utilidades
+python-dotenv==1.0.1
+schedule==1.2.2

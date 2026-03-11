@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF AI Summarizer — Resume cualquier PDF en 90 segundos con IA</title>
+  <meta name="description" content="Convierte PDFs de hasta 200 páginas en resúmenes estructurados con puntos clave, análisis y datos importantes. Powered by Gemini AI. Desde $4.99." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ─────────────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">⚡</span>
+        <span>PDF<strong>AI</strong></span>
+      </a>
+      <div class="nav-links">
+        <a href="#how">Cómo funciona</a>
+        <a href="#pricing">Precios</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a href="#pricing" class="btn btn-sm">Empezar →</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="badge animate-in">
+        <span class="badge-dot"></span>
+        Powered by Google Gemini 1.5 Flash
+      </div>
+      <h1 class="hero-title animate-in delay-1">
+        Tu PDF de <span class="gradient-text">200 páginas</span><br />
+        resumido en <span class="gradient-text">90 segundos</span>
+      </h1>
+      <p class="hero-sub animate-in delay-2">
+        Pega el enlace de cualquier PDF. La IA extrae los puntos clave,
+        metodología y datos importantes. Recibe el resumen en tu email —
+        sin registros, sin suscripción.
+      </p>
+      <div class="hero-cta animate-in delay-3">
+        <a href="#pricing" class="btn btn-primary btn-lg" id="hero-cta-btn">
+          Probar ahora — desde $4.99
+        </a>
+        <span class="cta-note">✓ Sin suscripción &nbsp; ✓ 100% privado &nbsp; ✓ Entrega en 2 min</span>
+      </div>
+
+      <!-- Demo card -->
+      <div class="demo-card animate-in delay-4">
+        <div class="demo-header">
+          <div class="demo-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="demo-label">Resumen generado por IA</span>
+        </div>
+        <div class="demo-body">
+          <div class="demo-section">
+            <span class="demo-tag">📄 Resumen Ejecutivo</span>
+            <div class="demo-lines">
+              <div class="demo-line w-full"></div>
+              <div class="demo-line w-90"></div>
+              <div class="demo-line w-75"></div>
+            </div>
+          </div>
+          <div class="demo-section">
+            <span class="demo-tag">🎯 Puntos Clave</span>
+            <div class="demo-bullets">
+              <div class="demo-bullet"><span class="bullet-dot"></span><div class="demo-line w-80"></div></div>
+              <div class="demo-bullet"><span class="bullet-dot"></span><div class="demo-line w-65"></div></div>
+              <div class="demo-bullet"><span class="bullet-dot"></span><div class="demo-line w-70"></div></div>
+            </div>
+          </div>
+          <div class="demo-section">
+            <span class="demo-tag">📊 Datos Importantes</span>
+            <div class="demo-stats-row">
+              <div class="demo-stat-pill">47% reducción</div>
+              <div class="demo-stat-pill">2.3M muestras</div>
+              <div class="demo-stat-pill">p &lt; 0.001</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOGOS / SOCIAL PROOF ───────────────────────────────────── -->
+  <section class="proof-bar">
+    <div class="container">
+      <p class="proof-label">Funciona con PDFs de cualquier fuente</p>
+      <div class="proof-logos">
+        <span class="proof-logo">arXiv</span>
+        <span class="proof-logo">Google Drive</span>
+        <span class="proof-logo">Dropbox</span>
+        <span class="proof-logo">ResearchGate</span>
+        <span class="proof-logo">SSRN</span>
+        <span class="proof-logo">PubMed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ───────────────────────────────────────────── -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-header">
+        <h2>Simple como 1, 2, 3</h2>
+        <p>Sin instalaciones. Sin registro. Solo resultados.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon">💳</div>
+          <h3>Selecciona tu plan</h3>
+          <p>Elige según el tamaño de tu PDF. $4.99 para básico, $9.99 para documentos extensos.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon">🔗</div>
+          <h3>Pega el enlace de tu PDF</h3>
+          <p>En el formulario de pago, pega la URL pública de tu PDF (Google Drive, arXiv, Dropbox, etc.).</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon">📧</div>
+          <h3>Recibe en tu email</h3>
+          <p>En menos de 2 minutos, el resumen estructurado llega directamente a tu bandeja de entrada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ───────────────────────────────────────────────── -->
+  <section class="section features-section">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-main">
+          <span class="feature-badge">El resumen más completo</span>
+          <h2>No solo un resumen.<br />Un análisis completo.</h2>
+          <p>Mientras otras herramientas te dan 3 frases genéricas, nuestro sistema usa Gemini 1.5 Flash para extraer lo que realmente importa.</p>
+          <ul class="feature-list">
+            <li>✓ Resumen ejecutivo de 3–5 párrafos</li>
+            <li>✓ Puntos clave extraídos automáticamente</li>
+            <li>✓ Datos, estadísticas y cifras relevantes</li>
+            <li>✓ Análisis de metodología (plan Pro)</li>
+            <li>✓ Limitaciones y aplicaciones prácticas (plan Pro)</li>
+          </ul>
+          <a href="#pricing" class="btn btn-primary">Ver planes →</a>
+        </div>
+        <div class="feature-preview">
+          <div class="preview-card">
+            <div class="preview-tag">Plan Pro — Análisis profundo</div>
+            <div class="preview-item">
+              <span class="preview-emoji">📄</span>
+              <div>
+                <div class="preview-title">Resumen Ejecutivo</div>
+                <div class="preview-bar w-full"></div>
+                <div class="preview-bar w-85"></div>
+              </div>
+            </div>
+            <div class="preview-item">
+              <span class="preview-emoji">🔍</span>
+              <div>
+                <div class="preview-title">Análisis Detallado</div>
+                <div class="preview-bar w-70"></div>
+                <div class="preview-bar w-90"></div>
+              </div>
+            </div>
+            <div class="preview-item">
+              <span class="preview-emoji">⚠️</span>
+              <div>
+                <div class="preview-title">Limitaciones</div>
+                <div class="preview-bar w-60"></div>
+              </div>
+            </div>
+            <div class="preview-item">
+              <span class="preview-emoji">💡</span>
+              <div>
+                <div class="preview-title">Aplicaciones Prácticas</div>
+                <div class="preview-bar w-80"></div>
+                <div class="preview-bar w-55"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ───────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Lo que dicen nuestros usuarios</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Tenía que leer 15 papers para mi tesis. Usé el Pack de 5 y en 20 minutos tenía todos los resúmenes. Increíble."</p>
+          <div class="testimonial-author">
+            <div class="avatar">MA</div>
+            <div>
+              <strong>María A.</strong>
+              <span>Estudiante de Doctorado, UBA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="stars">★★★★★</div>
+          <p>"El plan Pro es una bestia. Me dio el análisis completo de un reporte legal de 180 páginas. Ahorré 4 horas de lectura."</p>
+          <div class="testimonial-author">
+            <div class="avatar">CR</div>
+            <div>
+              <strong>Carlos R.</strong>
+              <span>Abogado corporativo</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Lo uso para mantenerme al día con papers de ML. La sección de 'Aplicaciones Prácticas' es lo mejor."</p>
+          <div class="testimonial-author">
+            <div class="avatar">LG</div>
+            <div>
+              <strong>Luis G.</strong>
+              <span>ML Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRICING ────────────────────────────────────────────────── -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2>Un precio justo por tu tiempo</h2>
+        <p>Sin suscripciones. Pagas solo cuando lo necesitas.</p>
+      </div>
+      <div class="pricing-grid">
+
+        <!-- Basic -->
+        <div class="pricing-card" id="plan-basic">
+          <div class="pricing-name">Basic</div>
+          <div class="pricing-price">$4.99</div>
+          <div class="pricing-per">por resumen</div>
+          <ul class="pricing-features">
+            <li>✓ PDFs de hasta 50 páginas</li>
+            <li>✓ Resumen ejecutivo</li>
+            <li>✓ 5 puntos clave</li>
+            <li>✓ Datos importantes</li>
+            <li>✓ Entrega por email en &lt;2 min</li>
+          </ul>
+          <a href="STRIPE_BASIC_LINK" class="btn btn-outline btn-full" id="btn-basic">
+            Comprar Basic →
+          </a>
+        </div>
+
+        <!-- Pro (destacado) -->
+        <div class="pricing-card featured" id="plan-pro">
+          <div class="pricing-badge">Más popular</div>
+          <div class="pricing-name">Pro</div>
+          <div class="pricing-price">$9.99</div>
+          <div class="pricing-per">por resumen</div>
+          <ul class="pricing-features">
+            <li>✓ PDFs de hasta 200 páginas</li>
+            <li>✓ Análisis de metodología</li>
+            <li>✓ 7–10 puntos clave</li>
+            <li>✓ Limitaciones y sesgos</li>
+            <li>✓ Aplicaciones prácticas</li>
+            <li>✓ Datos y estadísticas</li>
+          </ul>
+          <a href="STRIPE_PRO_LINK" class="btn btn-primary btn-full" id="btn-pro">
+            Comprar Pro →
+          </a>
+        </div>
+
+        <!-- Pack -->
+        <div class="pricing-card" id="plan-pack">
+          <div class="pricing-name">Pack 5</div>
+          <div class="pricing-price">$19.99</div>
+          <div class="pricing-per">5 créditos · $4/resumen</div>
+          <ul class="pricing-features">
+            <li>✓ 5 resúmenes Pro</li>
+            <li>✓ Válidos por 30 días</li>
+            <li>✓ PDFs hasta 200 páginas</li>
+            <li>✓ Análisis completo</li>
+            <li>✓ Mejor precio por unidad</li>
+          </ul>
+          <a href="STRIPE_PACK_LINK" class="btn btn-outline btn-full" id="btn-pack">
+            Comprar Pack 5 →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FAQ ────────────────────────────────────────────────────── -->
+  <section class="section" id="faq">
+    <div class="container faq-container">
+      <div class="section-header"><h2>Preguntas frecuentes</h2></div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            ¿Cómo le paso mi PDF al sistema?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            En el formulario de pago de Stripe, hay un campo para pegar la URL de tu PDF. Debe ser un enlace público (Google Drive con acceso "Cualquiera con el enlace", Dropbox con dl=1, arXiv, URL directa, etc.).
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            ¿Cuánto tiempo tarda en llegar el resumen?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Entre 60 y 120 segundos después de confirmar el pago. El sistema procesa tu PDF automáticamente y envía el resultado al email que ingresaste en Stripe.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            ¿Qué pasa si el PDF está escaneado o es una imagen?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            PDFs escaneados sin capa de texto no pueden ser procesados actualmente. Si esto ocurre, recibirás un email explicando el problema y te ofrecemos un reembolso completo.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            ¿Mis documentos son privados?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Sí. Tu PDF se descarga, procesa y el texto se descarta inmediatamente después. No almacenamos el contenido de tus documentos, solo el resumen generado en tu email.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            ¿El Pack 5 caduca?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Los créditos del Pack 5 son válidos por 30 días desde la compra. Recibirás instrucciones para usar cada crédito directamente en el email de confirmación.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA FINAL ──────────────────────────────────────────────── -->
+  <section class="cta-final">
+    <div class="container">
+      <h2>¿Listo para recuperar tu tiempo?</h2>
+      <p>Únete a cientos de estudiantes, investigadores y profesionales que ya usan PDF AI.</p>
+      <a href="#pricing" class="btn btn-primary btn-lg">Empezar desde $4.99 →</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="nav-logo"><span class="logo-icon">⚡</span> PDF<strong>AI</strong></span>
+        <div class="footer-links">
+          <a href="mailto:support@yourpdfai.com">Soporte</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Términos</a>
+        </div>
+        <span class="footer-copy">© 2026 PDF AI Summarizer</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // ── FAQ accordion
+    function toggleFaq(btn) {
+      const item = btn.parentElement;
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // ── Animate on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.step-card, .testimonial-card, .pricing-card, .faq-item').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
